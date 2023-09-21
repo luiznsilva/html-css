@@ -6,11 +6,12 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            margin: 100px;
+            margin: 30px;
         }
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
             
             
         }
@@ -19,9 +20,24 @@
             text-align: center;
             padding: 8px;   
         }
-        thead, tfoot {
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
             background-color: darkgrey;
+        }
+        thead, tfoot {
+            background-color: rgb(77, 75, 75);
             color: white;   
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(78, 77, 77);
+
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey
         }
         .num {
             text-align: right;
@@ -46,8 +62,8 @@
         <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -163,10 +179,16 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas inventore possimus incidunt dolores ullam voluptate pariatur est. Porro doloribus quo laboriosam perspiciatis quae ex sunt fugit aperiam, rerum exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae ullam dolore. Consectetur ipsa quo atque natus eius et ex assumenda cumque doloribus eum numquam reiciendis exercitationem tenetur, accusantium ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem molestiae eos aliquid consectetur, ab placeat nulla beatae praesentium repellat earum deserunt, nobis error tenetur facilis recusandae cupiditate dolores sunt fuga.</p>
 </body>
 </html>
